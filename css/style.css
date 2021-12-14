@@ -1,0 +1,125 @@
+body{
+	@font-face
+	font-family: catamaran;
+	src: url("../fonts/Catamaran-VariableFont_wght.ttf")
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: white;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+	
+}
+#hero{
+	background-image: url("../img/home-grid-new-slide-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 22% 0;
+	text-align: center;
+	color: white;
+}
+#hero h1{
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	font-weight: 700;
+}
+#hero h3{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 300;
+}
+#hero.btn-light{
+	padding: 15px;
+	width: 10%;
+	margin: 40px;
+	background: black;
+	border: none;
+	outline: none;
+}
+#hero:hover{
+	cursor: pointer;
+	box-shadow: 0 0 10px black;
+	color: #282d33;
+	}
+#intro{
+	padding: 5% 0;
+	}
+#intro h3{
+	padding: 5% 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	}
+#intro p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 50;
+	color:#474747
+	}
+#services{
+	padding: 5% 0;
+	}
+
+#services h3{
+	padding: 5% 0;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	}
+#services p{
+	text-align: center;
+	font-size: 14px;
+	font-weight: 50;
+	color:#474747
+	}
+#cta{
+	background-image: url("../img/home-grid-banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	padding: 5% 0;
+	text-align: center;
+	color: white;
+}
+#cta h3{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+}
+#cta.btn-light{
+	padding: 15px;
+	width: 10%;
+	margin: 40px;
+	background: black;
+	border: none;
+	outline: none;
+}
+#clients{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: contain;
+	background-position: center;
+	padding: 5% 0;
+	text-align: center;
+}
+footer{
+	background-color: #30363d;
+	color: #898989;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
